@@ -46,7 +46,7 @@ int createMaskByKmeans(cv::Mat src, cv::Mat & mask)
 int main()
 {
 	
-	Mat src = imread("D://Files//2.jpg");
+	Mat src = imread("D://Files//3.jpg");
 
 	Mat mask = Mat::zeros(src.size(), CV_8UC1);
 	createMaskByKmeans(src, mask);
